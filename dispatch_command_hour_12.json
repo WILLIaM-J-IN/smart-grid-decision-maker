@@ -1,0 +1,18 @@
+{
+    "target_hour": 12,
+    "forecast_data": {
+        "Coal_Gen": 23630.66,
+        "Gas_Gen": 50484.62,
+        "Nuclear_Gen": 32219.52,
+        "Oil_Gen": 1184.18,
+        "Other_Gen": 1807.79,
+        "Solar_Gen": 0.0,
+        "Hydro_Gen": 2377.22,
+        "Wind_Gen": 4800.21,
+        "Total_Gen_MW": 116061.75
+    },
+    "decision": {
+        "action": "STANDBY",
+        "reasoning": "API Unavailable after 3 attempts. Defaulting to Standby."
+    }
+}

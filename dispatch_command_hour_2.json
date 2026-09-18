@@ -1,0 +1,18 @@
+{
+    "target_hour": 2,
+    "forecast_data": {
+        "Coal_Gen": 23566.23,
+        "Gas_Gen": 49179.22,
+        "Nuclear_Gen": 32353.06,
+        "Oil_Gen": 1221.07,
+        "Other_Gen": 2013.61,
+        "Solar_Gen": 0.0,
+        "Hydro_Gen": 2052.96,
+        "Wind_Gen": 4945.7,
+        "Total_Gen_MW": 115109.78
+    },
+    "decision": {
+        "action": "DISCHARGE",
+        "reasoning": "The predicted total load is high, and there is no solar generation contributing to the grid. With a significant 64.3% reliance on fossil fuels, discharging the Battery Energy Storage System will help meet the demand, reduce the need for additional carbon-intensive generation, and improve the overall grid's operational efficiency and environmental profile during this period of high fossil fuel dependency."
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "target_hour": 9,
+    "forecast_data": {
+        "Coal_Gen": 22922.05,
+        "Gas_Gen": 46100.08,
+        "Nuclear_Gen": 32322.51,
+        "Oil_Gen": 746.02,
+        "Other_Gen": 1567.4,
+        "Solar_Gen": 0.0,
+        "Hydro_Gen": 1113.5,
+        "Wind_Gen": 5029.51,
+        "Total_Gen_MW": 108681.84
+    },
+    "decision": {
+        "action": "DISCHARGE",
+        "reasoning": "The predicted total load is high at 108 GW, and solar generation is zero, indicating a reliance on dispatchable sources. With a significant 64.2% fossil fuel ratio in the generation mix, discharging the BESS will help reduce the demand met by fossil fuel plants. This action can lower overall grid emissions and potentially reduce the marginal cost of electricity by decreasing the need for higher-cost fossil fuel generation."
+    }
+}

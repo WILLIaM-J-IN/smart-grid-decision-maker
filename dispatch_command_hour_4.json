@@ -1,0 +1,18 @@
+{
+    "target_hour": 4,
+    "forecast_data": {
+        "Coal_Gen": 23106.51,
+        "Gas_Gen": 45634.24,
+        "Nuclear_Gen": 32385.19,
+        "Oil_Gen": 874.74,
+        "Other_Gen": 1759.59,
+        "Solar_Gen": 0.0,
+        "Hydro_Gen": 1036.74,
+        "Wind_Gen": 5071.64,
+        "Total_Gen_MW": 109379.05
+    },
+    "decision": {
+        "action": "DISCHARGE",
+        "reasoning": "The grid exhibits a high fossil fuel ratio (63.6%) and zero solar generation, indicating a reliance on carbon-intensive and potentially expensive thermal power. Discharging the BESS will help reduce the demand on these fossil fuel generators, lowering marginal costs, and decreasing overall grid emissions during this period of high thermal reliance."
+    }
+}

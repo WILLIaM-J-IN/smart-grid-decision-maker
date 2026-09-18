@@ -1,0 +1,18 @@
+{
+    "target_hour": 8,
+    "forecast_data": {
+        "Coal_Gen": 22843.04,
+        "Gas_Gen": 44880.94,
+        "Nuclear_Gen": 32366.67,
+        "Oil_Gen": 653.04,
+        "Other_Gen": 1554.21,
+        "Solar_Gen": 0.0,
+        "Hydro_Gen": 688.29,
+        "Wind_Gen": 5135.71,
+        "Total_Gen_MW": 106899.01
+    },
+    "decision": {
+        "action": "DISCHARGE",
+        "reasoning": "With a high predicted load of 106.9 GW and zero solar generation, the grid is heavily reliant on fossil fuels, which constitute 64% of the generation mix. Discharging the BESS will help meet the demand, reduce the need for additional fossil fuel generation, and potentially lower emissions and operational costs during this period of high fossil fuel dependency."
+    }
+}
